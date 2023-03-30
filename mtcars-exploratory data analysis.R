@@ -31,7 +31,7 @@ ui <- fluidPage(
     ),
     mainPanel(
       plotOutput(outputId = "scatterplot"),
-      plotOutput(outputId = "histogram")
+      
     )
   )
 )
